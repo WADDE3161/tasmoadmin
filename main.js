@@ -1,7 +1,7 @@
 <script>  
  if(typeof(Storage)!=="undefined") {  
-  localStorage.setItem("name","Harshita");  
-  localStorage.setItem("Country", "India");  
+  localStorage.setItem("lname","H");  
+  localStorage.setItem("fname", "I");  
    document.write("Hi"+" "+localStorage.name+" "+"from" +" "+ localStorage.Country);  
 }  
  else{  
