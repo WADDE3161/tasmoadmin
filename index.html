@@ -13,16 +13,13 @@
   </style>  
 </head>  
 <body>  
-<input text="name"></input>
-<script>  
- if(typeof(Storage)!=="undefined") {  
-  localStorage.setItem("name","Harshita");  
-  localStorage.setItem("Country", "India");  
-   document.write("Hi"+" "+localStorage.name+" "+"from" +" "+ localStorage.Country);  
-}  
- else{  
-  alert("Sorry! your browser is not supporting the browser")  
- }  
-</script>  
+<form action = "main.js">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+  
 </body>  
 </html>  
